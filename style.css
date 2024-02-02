@@ -1,0 +1,83 @@
+.attribution {
+    font-size: 11px; 
+    text-align: center;
+    color: white;    
+}
+
+.attribution a { 
+    color: hsl(268, 85%, 61%);
+}
+
+body, html {
+    background-color: hsl(0, 0%, 8%);
+    font-family: sans-serif;
+}
+
+.container {
+    background-color: hsl(0, 0%, 12%);
+    position: relative;
+    height: 490px;
+    width: 60%;
+    max-width: 400px;
+    border-radius: 20px;
+    margin: auto;
+    margin-top: 50px;
+}
+
+.container img {
+    margin-top: 20px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: block;
+    margin: 0 auto 20px;
+}
+
+.style {
+    text-align: center;
+    color: white;
+    font-size: 14px;
+}
+
+.Jessica {
+    color: white;
+    font-size: 25px;
+    margin-bottom: 8px;
+}
+
+.london {
+    font-size: 14px;
+    color: #91A937;
+    font-weight: 600;
+}
+
+.front {
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.GitHub, .Mentor, .LinkedIn, .Twitter, .Instagram {
+    background-color: hsl(0, 0%, 20%);
+    border-radius: 5px;
+    width: 70%;
+    height: 40px;
+    margin: 0 auto 20px;
+    font-weight: 700;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media screen and (max-width: 375px) {
+    .container {
+        width: 90%;
+    }
+
+    .container img {
+        width: 40px;
+        height: 40px;
+        margin-top: 10px;
+    }
+
+    .Jessica {
+        font
